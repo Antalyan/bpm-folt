@@ -10,5 +10,10 @@ How to share it with others
 
 How to make changes 
 
-1. Do changes in jbpm
-2. 
+1. **do changes in jbpm platform** (do not forget to click on save)
+2. **git pull business-central master** (password wbadmin)
+3. **git push**
+
+How to download changes 
+1. **git pull**
+2. **git push business-central master** (password wbadmin)
