@@ -1,5 +1,6 @@
 Setup intructions
 =======================
+Important note: default branch must be **master**, not **main**
 
 ### How to share it with others
 1. **git clone https://github.com/peter-sipos/FOLT.git** (locally, first person uses **git init**)
