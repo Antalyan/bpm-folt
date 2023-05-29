@@ -6,12 +6,23 @@ package com.myspace.folt;
 
 public class Offer implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Offer() {
-    }
+	private java.util.List<com.myspace.folt.OfferItem> item;
 
+	public Offer() {
+	}
 
+	public java.util.List<com.myspace.folt.OfferItem> getItem() {
+		return this.item;
+	}
 
+	public void setItem(java.util.List<com.myspace.folt.OfferItem> item) {
+		this.item = item;
+	}
+
+	public Offer(java.util.List<com.myspace.folt.OfferItem> item) {
+		this.item = item;
+	}
 
 }
