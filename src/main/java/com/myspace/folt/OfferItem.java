@@ -9,19 +9,14 @@ public class OfferItem implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.String name;
 	private String unit;
 	private java.lang.String email;
 
+	private java.lang.Double price;
+
+	private java.lang.Integer amount;
+
 	public OfferItem() {
-	}
-
-	public java.lang.String getName() {
-		return this.name;
-	}
-
-	public void setName(java.lang.String name) {
-		this.name = name;
 	}
 
 	public java.lang.String getUnit() {
@@ -40,11 +35,28 @@ public class OfferItem implements java.io.Serializable {
 		this.email = email;
 	}
 
-	public OfferItem(java.lang.String name, java.lang.String unit,
-			java.lang.String email) {
-		this.name = name;
+	public java.lang.Double getPrice() {
+		return this.price;
+	}
+
+	public void setPrice(java.lang.Double price) {
+		this.price = price;
+	}
+
+	public java.lang.Integer getAmount() {
+		return this.amount;
+	}
+
+	public void setAmount(java.lang.Integer amount) {
+		this.amount = amount;
+	}
+
+	public OfferItem(java.lang.String unit, java.lang.String email,
+			java.lang.Double price, java.lang.Integer amount) {
 		this.unit = unit;
 		this.email = email;
+		this.price = price;
+		this.amount = amount;
 	}
 
 }
