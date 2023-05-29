@@ -8,21 +8,21 @@ public class Offer implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.util.List<com.myspace.folt.OfferItem> item;
+	private java.util.List<com.myspace.folt.OfferItem> items;
 
 	public Offer() {
 	}
 
-	public java.util.List<com.myspace.folt.OfferItem> getItem() {
-		return this.item;
+	public java.util.List<com.myspace.folt.OfferItem> getItems() {
+		return this.items;
 	}
 
-	public void setItem(java.util.List<com.myspace.folt.OfferItem> item) {
-		this.item = item;
+	public void setItems(java.util.List<com.myspace.folt.OfferItem> items) {
+		this.items = items;
 	}
 
-	public Offer(java.util.List<com.myspace.folt.OfferItem> item) {
-		this.item = item;
+	public Offer(java.util.List<com.myspace.folt.OfferItem> items) {
+		this.items = items;
 	}
 
 }
