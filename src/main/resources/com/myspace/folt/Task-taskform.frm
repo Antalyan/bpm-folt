@@ -1,1 +1,0 @@
-{"id":"3b20521a-5f5d-4219-9677-1e9260175b80","name":"Task-taskform.frm","model":{"taskName":"Task","processId":"FOLT.p8-customer-retention","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
