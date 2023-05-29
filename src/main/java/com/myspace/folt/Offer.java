@@ -11,6 +11,8 @@ public class Offer implements java.io.Serializable {
 
 	private java.util.List<com.myspace.folt.OfferItem> items;
 
+	private java.lang.String state;
+
 	public Offer() {
 	}
 
@@ -22,8 +24,18 @@ public class Offer implements java.io.Serializable {
 		this.items = items;
 	}
 
-	public Offer(java.util.List<com.myspace.folt.OfferItem> items) {
+	public java.lang.String getState() {
+		return this.state;
+	}
+
+	public void setState(java.lang.String state) {
+		this.state = state;
+	}
+
+	public Offer(java.util.List<com.myspace.folt.OfferItem> items,
+			java.lang.String state) {
 		this.items = items;
+		this.state = state;
 	}
 
 }
