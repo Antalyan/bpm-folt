@@ -12,9 +12,11 @@ Important note: default branch must be **master**, not **main**
 ### How to make changes 
 
 1. **do changes in jbpm platform** (do not forget to click on save)
-2. **git pull business-central master** (password wbadmin)
-3. **git push**
+2. locally: **git checkout <branch-name> 
+3. **git pull business-central <branch-name>** (password wbadmin)
+4. **git push**
 
 ### How to download changes 
-1. **git pull**
-2. **git push business-central master** (password wbadmin)
+1. locally: **git checkout <branch-name> 
+2. **git pull**
+3. **git push business-central <branch-name>** (password wbadmin)
