@@ -6,12 +6,54 @@ package com.myspace.folt;
 
 public class OfferItem implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public OfferItem() {
-    }
+	private java.lang.String name;
+	private java.lang.Integer amount;
+	private java.lang.Integer unit;
+	private java.lang.Integer price;
 
+	public OfferItem() {
+	}
 
+	public java.lang.String getName() {
+		return this.name;
+	}
 
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public java.lang.Integer getAmount() {
+		return this.amount;
+	}
+
+	public void setAmount(java.lang.Integer amount) {
+		this.amount = amount;
+	}
+
+	public java.lang.Integer getUnit() {
+		return this.unit;
+	}
+
+	public void setUnit(java.lang.Integer unit) {
+		this.unit = unit;
+	}
+
+	public java.lang.Integer getPrice() {
+		return this.price;
+	}
+
+	public void setPrice(java.lang.Integer price) {
+		this.price = price;
+	}
+
+	public OfferItem(java.lang.String name, java.lang.Integer amount,
+			java.lang.Integer unit, java.lang.Integer price) {
+		this.name = name;
+		this.amount = amount;
+		this.unit = unit;
+		this.price = price;
+	}
 
 }
