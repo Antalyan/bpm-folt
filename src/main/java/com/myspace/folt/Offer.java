@@ -9,18 +9,9 @@ public class Offer implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.String state;
 	private java.util.List<com.myspace.folt.OfferItem> items;
 
 	public Offer() {
-	}
-
-	public java.lang.String getState() {
-		return this.state;
-	}
-
-	public void setState(java.lang.String state) {
-		this.state = state;
 	}
 
 	public java.util.List<com.myspace.folt.OfferItem> getItems() {
@@ -31,9 +22,7 @@ public class Offer implements java.io.Serializable {
 		this.items = items;
 	}
 
-	public Offer(java.lang.String state,
-			java.util.List<com.myspace.folt.OfferItem> items) {
-		this.state = state;
+	public Offer(java.util.List<com.myspace.folt.OfferItem> items) {
 		this.items = items;
 	}
 
