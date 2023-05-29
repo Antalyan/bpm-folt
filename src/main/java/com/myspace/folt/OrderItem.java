@@ -6,12 +6,33 @@ package com.myspace.folt;
 
 public class OrderItem implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public OrderItem() {
-    }
+	private java.lang.String name;
+	private java.lang.Integer quantity;
 
+	public OrderItem() {
+	}
 
+	public java.lang.String getName() {
+		return this.name;
+	}
 
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public java.lang.Integer getQuantity() {
+		return this.quantity;
+	}
+
+	public void setQuantity(java.lang.Integer quantity) {
+		this.quantity = quantity;
+	}
+
+	public OrderItem(java.lang.String name, java.lang.Integer quantity) {
+		this.name = name;
+		this.quantity = quantity;
+	}
 
 }
