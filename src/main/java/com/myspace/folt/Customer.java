@@ -12,6 +12,8 @@ public class Customer implements java.io.Serializable {
 	private java.lang.String name;
 	private java.lang.String email;
 
+	private java.lang.String address;
+
 	public Customer() {
 	}
 
@@ -31,9 +33,19 @@ public class Customer implements java.io.Serializable {
 		this.email = email;
 	}
 
-	public Customer(java.lang.String name, java.lang.String email) {
+	public java.lang.String getAddress() {
+		return this.address;
+	}
+
+	public void setAddress(java.lang.String address) {
+		this.address = address;
+	}
+
+	public Customer(java.lang.String name, java.lang.String email,
+			java.lang.String address) {
 		this.name = name;
 		this.email = email;
+		this.address = address;
 	}
 
 }
