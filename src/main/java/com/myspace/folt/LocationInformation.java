@@ -6,12 +6,44 @@ package com.myspace.folt;
 
 public class LocationInformation implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public LocationInformation() {
-    }
+	private java.lang.String latitude;
+	private java.lang.String longitude;
+	private java.lang.String city;
 
+	public LocationInformation() {
+	}
 
+	public java.lang.String getLatitude() {
+		return this.latitude;
+	}
 
+	public void setLatitude(java.lang.String latitude) {
+		this.latitude = latitude;
+	}
+
+	public java.lang.String getLongitude() {
+		return this.longitude;
+	}
+
+	public void setLongitude(java.lang.String longitude) {
+		this.longitude = longitude;
+	}
+
+	public java.lang.String getCity() {
+		return this.city;
+	}
+
+	public void setCity(java.lang.String city) {
+		this.city = city;
+	}
+
+	public LocationInformation(java.lang.String latitude,
+			java.lang.String longitude, java.lang.String city) {
+		this.latitude = latitude;
+		this.longitude = longitude;
+		this.city = city;
+	}
 
 }
