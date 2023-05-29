@@ -12,6 +12,8 @@ public class LocationInformation implements java.io.Serializable {
 	private java.lang.String longitude;
 	private java.lang.String city;
 
+	private java.lang.String ip;
+
 	public LocationInformation() {
 	}
 
@@ -39,11 +41,21 @@ public class LocationInformation implements java.io.Serializable {
 		this.city = city;
 	}
 
+	public java.lang.String getIp() {
+		return this.ip;
+	}
+
+	public void setIp(java.lang.String ip) {
+		this.ip = ip;
+	}
+
 	public LocationInformation(java.lang.String latitude,
-			java.lang.String longitude, java.lang.String city) {
+			java.lang.String longitude, java.lang.String city,
+			java.lang.String ip) {
 		this.latitude = latitude;
 		this.longitude = longitude;
 		this.city = city;
+		this.ip = ip;
 	}
 
 }
