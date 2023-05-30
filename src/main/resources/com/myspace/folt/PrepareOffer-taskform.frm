@@ -1,0 +1,1 @@
+{"id":"02c3d381-529b-47e7-838f-5267b6ab0711","name":"PrepareOffer-taskform.frm","model":{"taskName":"PrepareOffer","processId":"FOLT.p8-customer-retention","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
