@@ -6,12 +6,23 @@ package com.myspace.folt;
 
 public class OrderableOffer implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public OrderableOffer() {
-    }
+	private java.lang.Boolean orderable;
 
+	public OrderableOffer() {
+	}
 
+	public java.lang.Boolean getOrderable() {
+		return this.orderable;
+	}
 
+	public void setOrderable(java.lang.Boolean orderable) {
+		this.orderable = orderable;
+	}
+
+	public OrderableOffer(java.lang.Boolean orderable) {
+		this.orderable = orderable;
+	}
 
 }
