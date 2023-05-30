@@ -6,12 +6,23 @@ package com.myspace.folt;
 
 public class OrderAcceptation implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public OrderAcceptation() {
-    }
+	private java.lang.Boolean accepted;
 
+	public OrderAcceptation() {
+	}
 
+	public java.lang.Boolean getAccepted() {
+		return this.accepted;
+	}
 
+	public void setAccepted(java.lang.Boolean accepted) {
+		this.accepted = accepted;
+	}
+
+	public OrderAcceptation(java.lang.Boolean accepted) {
+		this.accepted = accepted;
+	}
 
 }
