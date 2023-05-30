@@ -6,12 +6,23 @@ package com.myspace.folt;
 
 public class OrderConfirmation implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public OrderConfirmation() {
-    }
+	private java.lang.Boolean confirm;
 
+	public OrderConfirmation() {
+	}
 
+	public java.lang.Boolean getConfirm() {
+		return this.confirm;
+	}
 
+	public void setConfirm(java.lang.Boolean confirm) {
+		this.confirm = confirm;
+	}
+
+	public OrderConfirmation(java.lang.Boolean confirm) {
+		this.confirm = confirm;
+	}
 
 }
