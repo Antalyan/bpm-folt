@@ -1,0 +1,1 @@
+{"id":"aead7d26-821f-44b2-97eb-7291d8dfe90e","name":"Task-taskform.frm","model":{"taskName":"Task","processId":"FOLT.p4-food-pickup","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
