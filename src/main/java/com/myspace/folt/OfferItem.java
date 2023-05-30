@@ -18,8 +18,6 @@ public class OfferItem implements java.io.Serializable {
 
 	private java.lang.Boolean recommended;
 
-	private java.lang.Boolean ordered;
-
 	public OfferItem() {
 	}
 
@@ -63,23 +61,14 @@ public class OfferItem implements java.io.Serializable {
 		this.recommended = recommended;
 	}
 
-	public java.lang.Boolean getOrdered() {
-		return this.ordered;
-	}
-
-	public void setOrdered(java.lang.Boolean ordered) {
-		this.ordered = ordered;
-	}
-
 	public OfferItem(java.lang.String unit, java.lang.Double price,
 			java.lang.Double amount, java.lang.String name,
-			java.lang.Boolean recommended, java.lang.Boolean ordered) {
+			java.lang.Boolean recommended) {
 		this.unit = unit;
 		this.price = price;
 		this.amount = amount;
 		this.name = name;
 		this.recommended = recommended;
-		this.ordered = ordered;
 	}
 
 }
