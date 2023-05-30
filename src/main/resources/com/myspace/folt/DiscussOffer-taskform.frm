@@ -1,1 +1,0 @@
-{"id":"1f091401-4c86-4987-9d62-23958ba6fcc8","name":"DiscussOffer-taskform.frm","model":{"taskName":"DiscussOffer","processId":"FOLT.p8-customer-retention","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
