@@ -1,1 +1,0 @@
-{"id":"1f6b7183-cb4b-4b0e-96fd-749db59ac2a3","name":"MoveToVehicle-taskform.frm","model":{"taskName":"MoveToVehicle","processId":"FOLT.p4-food-pickup","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
