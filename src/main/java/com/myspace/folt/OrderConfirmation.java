@@ -8,21 +8,21 @@ public class OrderConfirmation implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.Boolean confirm;
+	private java.lang.Boolean confirmed;
 
 	public OrderConfirmation() {
 	}
 
-	public java.lang.Boolean getConfirm() {
-		return this.confirm;
+	public java.lang.Boolean getConfirmed() {
+		return this.confirmed;
 	}
 
-	public void setConfirm(java.lang.Boolean confirm) {
-		this.confirm = confirm;
+	public void setConfirmed(java.lang.Boolean confirmed) {
+		this.confirmed = confirmed;
 	}
 
-	public OrderConfirmation(java.lang.Boolean confirm) {
-		this.confirm = confirm;
+	public OrderConfirmation(java.lang.Boolean confirmed) {
+		this.confirmed = confirmed;
 	}
 
 }
