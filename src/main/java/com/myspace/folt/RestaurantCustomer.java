@@ -17,7 +17,7 @@ public class RestaurantCustomer implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("DIC")
 	private java.lang.String dic;
 
-	@org.kie.api.definition.type.Label("Street Name")
+	@org.kie.api.definition.type.Label("StreetName")
 	private java.lang.String streetName;
 
 	@org.kie.api.definition.type.Label("PSC")
@@ -32,13 +32,13 @@ public class RestaurantCustomer implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Email")
 	private java.lang.String email;
 
-	@org.kie.api.definition.type.Label("Account Number ")
+	@org.kie.api.definition.type.Label("AccountNumber")
 	private java.lang.String accountNumber;
 
-	@org.kie.api.definition.type.Label(value = "State")
+	@org.kie.api.definition.type.Label("State")
 	private java.lang.String state;
 
-	@org.kie.api.definition.type.Label(value = "Phone")
+	@org.kie.api.definition.type.Label("Phone")
 	private java.lang.String phone;
 
 	public RestaurantCustomer() {
