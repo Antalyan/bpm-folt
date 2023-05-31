@@ -13,6 +13,8 @@ public class Offer implements java.io.Serializable {
 
 	private java.lang.String state;
 
+	private java.lang.Integer offer_id;
+
 	public Offer() {
 	}
 
@@ -32,10 +34,19 @@ public class Offer implements java.io.Serializable {
 		this.state = state;
 	}
 
+	public java.lang.Integer getOffer_id() {
+		return this.offer_id;
+	}
+
+	public void setOffer_id(java.lang.Integer offer_id) {
+		this.offer_id = offer_id;
+	}
+
 	public Offer(java.util.List<com.myspace.folt.OfferItem> items,
-			java.lang.String state) {
+			java.lang.String state, java.lang.Integer offer_id) {
 		this.items = items;
 		this.state = state;
+		this.offer_id = offer_id;
 	}
 
 }
