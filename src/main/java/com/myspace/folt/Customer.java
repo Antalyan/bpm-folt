@@ -6,12 +6,44 @@ package com.myspace.folt;
 
 public class Customer implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Customer() {
-    }
+	private java.lang.String address;
+	private java.lang.String name;
+	private java.lang.String email;
 
+	public Customer() {
+	}
 
+	public java.lang.String getAddress() {
+		return this.address;
+	}
 
+	public void setAddress(java.lang.String address) {
+		this.address = address;
+	}
+
+	public java.lang.String getName() {
+		return this.name;
+	}
+
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public java.lang.String getEmail() {
+		return this.email;
+	}
+
+	public void setEmail(java.lang.String email) {
+		this.email = email;
+	}
+
+	public Customer(java.lang.String address, java.lang.String name,
+			java.lang.String email) {
+		this.address = address;
+		this.name = name;
+		this.email = email;
+	}
 
 }
