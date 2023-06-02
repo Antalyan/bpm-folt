@@ -1,0 +1,1 @@
+{"id":"cbb3b950-2e91-41f6-8b89-531f389b4be7","name":"TravelToCustomer-taskform.frm","model":{"taskName":"TravelToCustomer","processId":"FOLT.P2-Order-delivery","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}

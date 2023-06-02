@@ -1,0 +1,1 @@
+{"id":"b106e5a1-e587-47bb-99b3-8c70dfdd9596","name":"FOLT.LocationRequest-taskform.frm","model":{"processName":"LocationRequest","processId":"FOLT.LocationRequest","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.process.BusinessProcessFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
