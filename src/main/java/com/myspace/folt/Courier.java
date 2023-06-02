@@ -5,16 +5,14 @@ package com.myspace.folt;
  */
 
 @javax.xml.bind.annotation.XmlRootElement
-public class Customer implements java.io.Serializable {
+public class Courier implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
 	private java.lang.String name;
 	private java.lang.String email;
 
-	private java.lang.String address;
-
-	public Customer() {
+	public Courier() {
 	}
 
 	public java.lang.String getName() {
@@ -33,19 +31,9 @@ public class Customer implements java.io.Serializable {
 		this.email = email;
 	}
 
-	public java.lang.String getAddress() {
-		return this.address;
-	}
-
-	public void setAddress(java.lang.String address) {
-		this.address = address;
-	}
-
-	public Customer(java.lang.String name, java.lang.String email,
-			java.lang.String address) {
+	public Courier(java.lang.String name, java.lang.String email) {
 		this.name = name;
 		this.email = email;
-		this.address = address;
 	}
 
 }
